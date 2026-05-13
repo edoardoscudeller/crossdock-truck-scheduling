@@ -1,0 +1,11 @@
+InboundTrucks  = 3;
+OutboundTrucks = 3;
+InboundDoors   = 1;
+OutboundDoors  = 1;
+ReleaseTimes    = [0, 2, 5,];
+UnloadingTimes  = [5, 4, 3,];
+LoadingTimes    = [6, 5, 4,];
+TransferMatrix  = [| 2, 1, 3,
+                   | 3, 2, 1,
+                   | 1, 3, 2,
+                   ];
